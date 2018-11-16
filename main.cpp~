@@ -23,7 +23,7 @@ int main()
 
     std::cout << tl.daily_balance(1) << std::endl;
     tl.print_dailies(tl.get_dailies());
-    std::cout << "Total interest earned over the month " << tl.get_interest(tl.get_dailies()) << std::endl;
+    std::cout << "Total interest earned over the month" << tl.get_interest(tl.get_dailies()) << std::endl;
 
     return 0;
 }
